@@ -4,7 +4,7 @@ The dataset consists of 1244 images of hot or cold water meters. Each image cont
 The dataset is assembled by Kutsev Roman from the [TrainingData.ru](http://trainingdata.ru/)  company for an article on Habr.
 
 ### How the data was collected
-The detailed process of collecting the dataset is described in the article  [“Create your own dataset for recognition of water meters on Yandex.Toloka”](https://habr.com/ru/company/ods/blog/469633/) (in Russian).
+The detailed process of collecting the dataset is described in the article  [“Create your own dataset for recognition of water meters on Yandex.Toloka”](https://habr.com/ru/company/ods/blog/469633/). The data.yaml file to sppecify where our training and validation data is the number of classes that we want to detect and the names corresponding to those classes.
 
 ### Archive contents
 
@@ -12,6 +12,13 @@ The detailed process of collecting the dataset is described in the article  [“
 - photo\_name -- photo name
 - value -- reading
 - location -- display coordinates
+
+## data.yaml
+-train: ../train/images
+-val: ../valid/images
+-nc: 1
+-names: ['numbers']
+
 
 ## images
 Directory with images of water meters
