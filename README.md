@@ -63,7 +63,7 @@ YoloV5 implemented by Pytorch , with support for training, evaluation and infere
 * [networkx](https://networkx.org/)
 * [matplotlib](https://matplotlib.org/)
 * [opencv](https://opencv.org/)
-* [YoloV5] (https://github.com/ultralytics/yolov5)
+* [YoloV5](https://github.com/ultralytics/yolov5)
 
 <!-- GETTING STARTED -->
 ## Getting Started
