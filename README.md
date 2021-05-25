@@ -1,4 +1,4 @@
-# Zombies Spread Dynamics
+# Water Meter Detection
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
